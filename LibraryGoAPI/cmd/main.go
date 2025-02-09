@@ -1,12 +1,13 @@
 package main
 
 import (
-    "library-api/internal/routes"
-    "log"
-    "net/http"
+	"library-api/internal/routes"
+	"log"
+	"net/http"
 )
 
 func main() {
+
     // Initialize router
     r := router.SetupRouter()
 
